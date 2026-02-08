@@ -19,9 +19,9 @@ import { Input } from '@/components/ui/Input';
 import { Textarea } from '@/components/ui/Textarea';
 import { Button } from '@/components/ui/Button';
 import { ErrorMessage } from '@/components/ui/ErrorMessage';
-import { api } from '@/lib/api';
-import { handleApiError, isRetryableError } from '@/lib/error-handler';
-import type { CreateTaskRequest } from '@/lib/types';
+import { api } from '@/ups/api';
+import { handleApiError, isRetryableError } from '@/ups/error-handler';
+import type { CreateTaskRequest } from '@/ups/types';
 
 interface CreateTaskFormProps {
   onTaskCreated?: () => void;

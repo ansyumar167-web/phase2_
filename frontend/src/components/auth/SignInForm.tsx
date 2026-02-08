@@ -24,7 +24,7 @@ import { useAuth } from '@/components/auth/AuthProvider';
 import { Button } from '../ui/Button';
 import { Input } from '../ui/Input';
 import { ErrorMessage } from '../ui/ErrorMessage';
-import { handleApiError } from '@/lib/error-handler';
+import { handleApiError } from '@/ups/error-handler';
 
 export function SignInForm() {
   const { signIn } = useAuth();

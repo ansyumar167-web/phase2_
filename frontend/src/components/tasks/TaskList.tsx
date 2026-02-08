@@ -13,7 +13,7 @@
  * Responsive: Mobile-first design with proper spacing
  */
 
-import type { Task, UpdateTaskRequest } from '@/lib/types';
+import type { Task, UpdateTaskRequest } from '@/ups/types';
 import TaskItem from '@/components/TaskItem';
 import EmptyState from './EmptyState';
 import { LoadingSpinner } from '@/components/ui/LoadingSpinner';

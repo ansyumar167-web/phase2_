@@ -27,8 +27,8 @@ import React, { createContext, useContext, useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { User } from '@/types/user';
 import { AuthContextValue } from '@/types/session';
-import * as authService from '@/lib/auth';
-import { handleApiError, ErrorType } from '@/lib/error-handler';
+import * as authService from '@/ups/auth';
+import { handleApiError, ErrorType } from '@/ups/error-handler';
 
 const AuthContext = createContext<AuthContextValue | undefined>(undefined);
 

@@ -17,8 +17,8 @@ import { LoadingSpinner } from '@/components/ui/LoadingSpinner';
 import { Button } from '@/components/ui/Button';
 import TaskList from '@/components/tasks/TaskList';
 import CreateTaskForm from '@/components/tasks/CreateTaskForm';
-import { api } from '@/lib/api';
-import type { Task } from '@/lib/types';
+import { api } from '@/ups/api';
+import type { Task } from '@/ups/types';
 
 export default function TasksPage() {
   const { user, isLoading: authLoading, signOut } = useAuth();

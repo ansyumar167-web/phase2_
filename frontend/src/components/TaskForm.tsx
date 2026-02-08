@@ -4,7 +4,7 @@
 'use client';
 
 import { useState, FormEvent } from 'react';
-import type { CreateTaskRequest } from '@/lib/types';
+import type { CreateTaskRequest } from '@/ups/types';
 
 interface TaskFormProps {
   onSubmit: (data: CreateTaskRequest) => Promise<void>;

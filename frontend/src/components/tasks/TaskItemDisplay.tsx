@@ -10,7 +10,7 @@
  * with edit/delete/toggle will be used in later user stories.
  */
 
-import type { Task } from '@/lib/types';
+import type { Task } from '@/ups/types';
 
 interface TaskItemDisplayProps {
   task: Task;

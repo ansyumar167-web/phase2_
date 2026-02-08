@@ -26,8 +26,8 @@ import { useAuth } from '@/components/auth/AuthProvider';
 import { Button } from '../ui/Button';
 import { Input } from '../ui/Input';
 import { ErrorMessage } from '../ui/ErrorMessage';
-import { isValidEmail, validatePassword, getPasswordRequirements } from '@/lib/auth';
-import { handleApiError } from '@/lib/error-handler';
+import { isValidEmail, validatePassword, getPasswordRequirements } from '@/ups/auth';
+import { handleApiError } from '@/ups/error-handler';
 
 export function SignUpForm() {
   const { signUp } = useAuth();

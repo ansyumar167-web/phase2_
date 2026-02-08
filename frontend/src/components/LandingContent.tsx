@@ -20,7 +20,7 @@
  * - WCAG 2.1 AA compliant color contrast
  */
 
-import React, { useEffect } from 'react';
+import  { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { useAuth } from '@/components/auth/AuthProvider';

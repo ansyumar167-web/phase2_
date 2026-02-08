@@ -4,7 +4,7 @@
 'use client';
 
 import { useState } from 'react';
-import type { Task, UpdateTaskRequest } from '@/lib/types';
+import type { Task, UpdateTaskRequest } from '@/ups/types';
 
 interface TaskItemProps {
   task: Task;

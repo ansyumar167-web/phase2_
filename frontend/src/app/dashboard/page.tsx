@@ -5,11 +5,11 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { signOut } from '@/lib/auth';
-import { api } from '@/lib/api';
+import { signOut } from '@/ups/auth';
+import { api } from '@/ups/api';
 import TaskForm from '@/components/TaskForm';
 import TaskItem from '@/components/TaskItem';
-import type { Task, CreateTaskRequest, UpdateTaskRequest } from '@/lib/types';
+import type { Task, CreateTaskRequest, UpdateTaskRequest } from '@/ups/types';
 
 export default function DashboardPage() {
   const router = useRouter();
